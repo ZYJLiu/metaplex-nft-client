@@ -89,7 +89,6 @@ async function uploadMetadata(
     symbol: nftData.symbol,
     description: nftData.description,
     image: imageUri,
-    test: "test",
   })
 
   console.log("metadata uri:", uri)
